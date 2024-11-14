@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangá Já - Sua loja de mangás</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <div class="logo">
+                <h1>Mangá Já</h1>
+                <img src="./imagens/Logo.png" alt="">
+            </div>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div  class="container">
+                <ul id="sub-menu">
+                    <li>
+                        <a href="#sobre-a-loja">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#mangas">Mangás</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="sobre-a-loja">
+        <div class="container">
+            <img src="./imagens/fachada-livraria.jpg" alt="Fachada da loja">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis laboriosam, minima earum consequatur excepturi, porro illum deleniti culpa obcaecati distinctio odit. Facere assumenda earum fugit necessitatibus repellendus eum ullam rerum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste amet reprehenderit laudantium praesentium commodi sit dolorem, dolorum labore rerum quod numquam perspiciatis iusto corporis a pariatur accusamus, ex facere! Cumque.</p>
+            </div>
+        </div>
+    </section>
+    <section id="mangas">
+        <div class="container">
+            <h2>Mangás</h2>
+            <ul class="container-flex lista-mangas">
+                <li>
+                    <img src="./imagens/Berserk 42.jpg" alt="Capa Berserk 42">
+                    <h3>Berserk - Vol. 42</h3>
+                    <p>Kentaro Miura</p>
+                    <div>
+                        <strong>R$ 40,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/Akira 01.jpg" alt="Capa Akira 1">
+                    <h3>Akira - Vol. 1</h3>
+                    <p>Katsuhiro Otomo</p>
+                    <div>
+                        <strong>R$ 69,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/Chainsaw man 1.jpg" alt="Capa Chainsaw Man 1">
+                    <h3>Chainsaw Man - Vol. 1</h3>
+                    <p>Tatsuki Fujimoto</p>
+                    <div>
+                        <strong>R$ 29,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/Jojo part 3 - 8.jpg" alt="Capa JoJo´s parte 3 vol 8">
+                    <h3>JoJo´s Parte 3 - Vol. 8</h3>
+                    <p>Hirohiko Araki</p>
+                    <div>
+                        <strong>R$ 45,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/One Punch man 1.jpg" alt="Capa One Punch Man 1">
+                    <h3>One Punch Man - Vol. 1</h3>
+                    <p>One e Murata</p>
+                    <div>
+                        <strong>R$ 40,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/RoR.jpg" alt="Capa RoR 9">
+                    <h3>Record of Ragnarok - Vol. 9</h3>
+                    <p>Takumi, Shinya e Azychika</p>
+                    <div>
+                        <strong>R$ 30,90</strong>
+                    </div>
+                    <button type="button">Adicionar ao Carrinho</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="manga-interesse">Mangá de interesse:</label>
+                    <input type="text" id="manga-interesse"  name="mangaInteresse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <Footer>
+        <div class="container container-flex">
+            <p>2024 &copy; Mangá Já - Todos os direitos reservados</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./imagens/instagram (1).png" alt="Logo do Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imagens/facebook (1).png" alt="Logo do Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imagens/x.webp" alt="Logo do X ex-Twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </Footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
